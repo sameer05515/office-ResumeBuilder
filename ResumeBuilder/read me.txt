@@ -1,0 +1,55 @@
+****************************************************************************
+*                                     Project Name :-  ResumeBuilder                                     *
+****************************************************************************
+
+* Platform  :-  Java ( jdk1.7.0_21/ jdk1.8.0 ) / Apache TomCat Server 7.0 & Mysql database
+
+* Editor :- Eclipse
+
+* Required Libraries :- jdk1.8.0,mysql-connector-java-5.0.7, apache TomCat libs.
+
+* Functionality :- 
+	This project is for ResumeBuilder provides to built resume by filling details.
+	provides Printling facility in basic tabular format and basic gui.
+
+* Project details :-
+	1) index.jsp
+	2) ViewPreview.jsp
+	3) ViewResume.jsp
+			
+	Main file is web.xml
+
+our Project folder is "D:\Kartikeya\Project Data\New Backup\MyProject\AdvJava\Resume Builder\ResumeBuilder"
+
+our Required libraries are "mysql-connector-java-5.0.7" , "Apache Tomcat libraries" and "Java libraries", which are
+found in 
+"D:\Kartikeya\Project Data\New Backup\MyProjectAdvJava\Resume Builder\ResumeBuilder\WebContent\WEB-INF\lib" 
+for MySql libs AND
+"C:\Program Files\Apache Software Foundation\Tomcat 7.0\lib" for Apache Tomcat libs...
+
+our Database file is "RemuseBuilder(blankDb).sql" located in 
+	"D:\Kartikeya\Project Data\MyProject\AdvJava\Resume Builder\ResumeBuilder\database"
+
+* How To Run ?
+:- 
+	1) Install Jdk1.8.0 (Jdk1.7.0_21)
+	2) Install mysql setup because our database configure in mysql
+	3) import database script file(.sql) in mysql query browser,
+		 Tools -> MYSQL Administrator -> select "Restore"
+		click on "open backup file" button -> select backup file -> 
+		click on "open " button -> and click on "Start Restore" button -> 
+		then click on close -> close that window, 
+		then Right click on Schemata tab and click refresh
+	your database is imported in MySQL
+	4) Install Apache TomCat 7.0 with "admin" username & password. 
+	5) Open eclipse editor.
+	6) Import Project, File ->import, select "Existing Project into workshop", browse project folder, click on finish.
+	7) Now Right click on project, select Properties, select Java Build Path, select "Library" tab, 
+		click on "Add Library" button, select "User Library", click next, click "User libraries..." button,
+		click New-> give appropriate name, click Ok button, then select Library, 
+		click Add External JARs & add Required jars. then click Ok, checked the required Libraries,
+		and Click Finish, then the respective window.
+	8) Click on Project menu -> select clean... select "clean projects selected below", click ok.
+	9) And finally Run the project by Right clicking on project name -> Run as -> Run on Server / (Alt+Shift+X,R)
+
+Now i'll describe you practically by giving Demo.....

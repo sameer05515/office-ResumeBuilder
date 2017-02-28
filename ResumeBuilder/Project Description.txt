@@ -1,0 +1,24 @@
+First  install Jdk min 7version....
+Then  install and configure mysql both command interface and gui interface.....
+For importing our project in mysql query browser, open " Mysql Query Browser " from start -> programs -> mysql -> 
+	Mysql Query Browser......
+	Type password that your typed when configured... Here the password is "root"  .. Then click Ok..
+	Then follow steps i described earlier....
+	We've sucessfully imported our project now.
+Open Eclipse IDE, the shortcut will on desktop or go to eclipse folder.. Here
+	"D:\Software\Java Editor\eclipse\eclipse" and then double click on "eclipse.exe"
+Then follow the steps to import project & add Required Libraries.
+Then Clean & Build the project and Run..
+
+our project is combination of simple jsp & html page which takes input from user in various aspects like,
+	personal details,
+	educational details,
+	experience details,
+	book/journals details,
+	expertActivity/membeership details,
+	participation/project/otherAchievement details etc.
+
+show preview for entered data saves data in our database and facilitate us to print that data.
+our project is in initial level with simple ui but have more chances of expansion in future in every aspects...
+
+	Thank you...
